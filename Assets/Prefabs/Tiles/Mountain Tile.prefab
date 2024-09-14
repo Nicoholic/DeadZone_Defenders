@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4375799278598204042
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1642693778731759359, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_Color.b
+      value: 0.13176396
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642693778731759359, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_Color.g
+      value: 0.27754045
+      objectReference: {fileID: 0}
+    - target: {fileID: 1642693778731759359, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5943396
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259814243785638668, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_Name
+      value: Mountain Tile
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978501423320478647, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3259814243785638668, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8089470690963563646}
+  m_SourcePrefab: {fileID: 100100000, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+--- !u!1 &1262372982766676358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3259814243785638668, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+  m_PrefabInstance: {fileID: 4375799278598204042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8089470690963563646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262372982766676358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7f5dc7bd7f9cd43b45441ae903180c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TilesName: Mud
+  _renderer: {fileID: 3059618752003660917}
+  _highLighter: {fileID: 7731187540909695705}
+  _isWalkable: 0
+  occupiedUnit: {fileID: 0}
+--- !u!212 &3059618752003660917 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1642693778731759359, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+  m_PrefabInstance: {fileID: 4375799278598204042}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7731187540909695705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6337484253216409683, guid: 0b80f1f3138e757449a15090d439fc64, type: 3}
+  m_PrefabInstance: {fileID: 4375799278598204042}
+  m_PrefabAsset: {fileID: 0}
